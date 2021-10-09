@@ -8,6 +8,7 @@ body {
     height: 40vw;
     width: 40vw;
     margin: auto;
+    margin-top: 4rem;
 }
 #hour, #minute, #second {
     position:absolute;
@@ -35,4 +36,12 @@ body {
     left: 49.2%;
     transform-origin: bottom;
     background: linear-gradient(to bottom, #ff0000 91%, #000000 9%);
+}
+
+@media only screen and (max-width: 400px) {
+
+    #clockcontainer {
+        margin-top: 15rem;
+    }
+
 }
